@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(186, 202, 206);
+  margin: 0px;
+}
+
+.search-form {
+  position: sticky;
+  top: 0px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+  background-color: rgb(45, 180, 149);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.search-elements {
+  position: relative;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  border: transparent;
+  border-radius: 2px;
+}
+
+.search-button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+  border: transparent;
+}
+
+.search-icon {
+  text-align: center;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-basis: calc ((100%/4) - 20px);
+  margin-right: -10px;
+}
+
+.picture-card {
+  width: 340px;
+  background-color: rgb(223, 244, 243);
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.gallery-item {
+  text-decoration: none;
+}
+
+.info {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.info-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: black;
+}
+
+.load-more {
+  display: flex;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  width: 100px;
+  height: 40px;
+  border-radius: 2px;
+  border-color: transparent;
+  background-color: rgb(45, 180, 149);
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+}
